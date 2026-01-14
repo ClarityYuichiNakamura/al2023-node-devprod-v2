@@ -1,0 +1,9 @@
+{
+  "name": "al2023-node-devprod-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
