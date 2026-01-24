@@ -1,12 +1,17 @@
 # al2023-node-devprod-v2
 
-## 目的
-Dev Container（Amazon Linux 2023寄せ）で Node Webアプリを起動し、GitHubで再現可能に管理する。
+Dev Container（Amazon Linux 2023）で動かす最小Node Webサーバ。
 
-## 起動（開発）
-入力場所：Cursor ターミナル（Dev Container 内 /workspaces/...）
-  npm install
-  npm run dev
+## Run (Dev Container)
 
-## 動作確認
-http://localhost:3000 を開き、トップページが表示されたらOK
+```bash
+npm run dev
+```
+
+Open:
+- http://localhost:3000
+
+Change port:
+```bash
+PORT=3001 npm run dev
+```

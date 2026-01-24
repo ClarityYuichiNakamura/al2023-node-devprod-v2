@@ -1,9 +1,10 @@
 {
   "name": "al2023-node-devprod-v2 (dev)",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
+  "build": { "dockerfile": "Dockerfile", "context": ".." },
   "remoteUser": "root",
-  "postCreateCommand": "cat /etc/os-release"
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "containerEnv": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8"
+  }
 }
